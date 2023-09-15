@@ -16,24 +16,24 @@ tracks:
     - notebooks/2-03-strings-nb.py
     - notebooks/2-04-files-nb.py
     - notebooks/2-05-containers-2-nb.py
-    - notebooks/2-09-exos-nb.py
+    - notebooks/2-90-exos-nb.py
 # ???    - tps/graphs/README-graphs.md
   - name: "présentation"
     notebooks:
-    - notebooks/3-11-pep008-nb.py
+    - notebooks/3-01-pep008-nb.py
 #    - notebooks/3-90-exos-nb.py
   - name: "it\xE9rations"
     notebooks:
-    - notebooks/4-11-iterations-1-nb.py
-    - notebooks/4-12-iterations-2-nb.py
+    - notebooks/4-01-iterations-1-nb.py
+    - notebooks/4-02-iterations-2-nb.py
 #    - notebooks/4-90-exos-nb.py
 #    - notebooks/4-91-exos2-nb.py
   - name: "classes"
     notebooks:
-    - notebooks/5-11-classes-nb.py
-    - notebooks/5-12-dunder-specials-nb.py
-    - notebooks/5-13-inheritance-nb.py
-    - notebooks/5-14-class-attributes-nb.py
+    - notebooks/5-01-classes-nb.py
+    - notebooks/5-02-dunder-specials-nb.py
+    - notebooks/5-03-inheritance-nb.py
+    - notebooks/5-04-class-attributes-nb.py
 #    - notebooks/5-90-exos-nb.py
 # ??? - tps/students/README-students.md
 #     - tps/boids/README-boids.md
@@ -43,7 +43,7 @@ tracks:
     notebooks:
 # keep temporarily until the videos get embedded
 # some place else
-    - notebooks/6-00-intro-nb.py
+    - notebooks/6-00-functions-videos-nb.py
     - notebooks/6-01-functions-declaration-nb
     - notebooks/6-02-functions-arguments-nb
     - notebooks/6-03-lambdas-nb
@@ -54,7 +54,7 @@ tracks:
     notebooks:
     - notebooks/7-10-argparse-nb.py
     - notebooks/7-20-recent-stuff-nb.py
-    - notebooks/7-25-enums-dataclasses-nb.py
+    - notebooks/7-21-enums-dataclasses-nb.py
     - notebooks/7-30-regexps-nb.py
     - notebooks/7-31-exos-regexps-nb.py
     - notebooks/7-40-generators-nb.py
@@ -62,11 +62,11 @@ tracks:
   - name: "organisation des sources"
     notebooks:
 #    - notebooks/8-10-import-basics.py
-    - notebooks/8-11-imports-sources-nb.py
+    - notebooks/8-01-imports-sources-nb.py
   - name: avancé
     notebooks:
-    - notebooks/9-11-properties-nb.py
-    - notebooks/9-12-decorators-nb.py
+    - notebooks/9-01-properties-nb.py
+    - notebooks/9-02-decorators-nb.py
 # ???    - tps/metro/README-metro.md
 #- description: "Cours du S2"
 #  id: s2

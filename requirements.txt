@@ -10,14 +10,18 @@ autograd
 requests
 pytest
 
+nbautoeval
+ipythontutor
+
 # tooling
 jupyter
 jupytext
+jupyterlab-myst
+jupyterlab-courselevels
 ipywidgets
-jupyter-contrib-nbextensions
+ipympl
+jupyterlab-rise
 
-nbautoeval
-ipythontutor
-nb-courselevels
-
-rise
+# for authors only
+# nbprune
+# jupyter-book

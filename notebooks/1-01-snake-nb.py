@@ -81,4 +81,9 @@ HTML(filename="_static/style.html")
 # %% [markdown]
 # ## le TP
 #
-# se trouve dans le dossier `notebooks/tps/snake`
+# ````{admonition} TP snake
+#
+# Voyez le TP qui se trouve ici
+#
+# <https://nbhosting.inria.fr/builds/python-exos/python/latest/python-tps/snake/README-snake-nb.html>
+# ````

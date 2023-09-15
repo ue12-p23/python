@@ -1,0 +1,92 @@
+static-mappings: []
+
+tracks:
+- description: "Python avanc\xE9"
+  id: python
+  name: "Python avanc\xE9"
+  sections:
+  - name: 'un jeu pour commencer'
+    notebooks:
+    - notebooks/1-01-snake-nb.py
+    - notebooks/tps/snake/README-snake.md
+  - name: 'types de base'
+    notebooks:
+    - notebooks/2-01-numbers-nb.py
+    - notebooks/2-02-containers-1-nb.py
+    - notebooks/2-03-strings-nb.py
+    - notebooks/2-04-files-nb.py
+    - notebooks/2-05-containers-2-nb.py
+    - notebooks/2-09-exos-nb.py
+# ???    - tps/graphs/README-graphs.md
+  - name: "présentation"
+    notebooks:
+    - notebooks/3-11-pep008-nb.py
+#    - notebooks/3-90-exos-nb.py
+  - name: "it\xE9rations"
+    notebooks:
+    - notebooks/4-11-iterations-1-nb.py
+    - notebooks/4-12-iterations-2-nb.py
+#    - notebooks/4-90-exos-nb.py
+#    - notebooks/4-91-exos2-nb.py
+  - name: "classes"
+    notebooks:
+    - notebooks/5-11-classes-nb.py
+    - notebooks/5-12-dunder-specials-nb.py
+    - notebooks/5-13-inheritance-nb.py
+    - notebooks/5-14-class-attributes-nb.py
+#    - notebooks/5-90-exos-nb.py
+# ??? - tps/students/README-students.md
+#     - tps/boids/README-boids.md
+#     - tps/auctions/README-auctions.md
+#     - tps/expressions-lang/README-explang.md
+  - name: 'fonctions'
+    notebooks:
+# keep temporarily until the videos get embedded
+# some place else
+    - notebooks/6-00-intro-nb.py
+    - notebooks/6-01-functions-declaration-nb
+    - notebooks/6-02-functions-arguments-nb
+    - notebooks/6-03-lambdas-nb
+    - notebooks/6-04-variables-scope-nb
+#    - notebooks/6-90-exos-nb.py
+# ???   - tps/queens/README-queens.md
+  - name: "divers"
+    notebooks:
+    - notebooks/7-10-argparse-nb.py
+    - notebooks/7-20-recent-stuff-nb.py
+    - notebooks/7-25-enums-dataclasses-nb.py
+    - notebooks/7-30-regexps-nb.py
+    - notebooks/7-31-exos-regexps-nb.py
+    - notebooks/7-40-generators-nb.py
+    - notebooks/7-41-exos-generators-nb.py
+  - name: "organisation des sources"
+    notebooks:
+#    - notebooks/8-10-import-basics.py
+    - notebooks/8-11-imports-sources-nb.py
+  - name: avancé
+    notebooks:
+    - notebooks/9-11-properties-nb.py
+    - notebooks/9-12-decorators-nb.py
+# ???    - tps/metro/README-metro.md
+#- description: "Cours du S2"
+#  id: s2
+#  name: "S2"
+#  sections:
+#  - name: Profiling
+#    notebooks:
+#    - "notebooks/a-[ab]*.py"
+#  - name: Notebooks interactifs
+#    notebooks:
+#    - "notebooks/a-[cx]*.py"
+#   - name: Python asynchrone
+#     notebooks:
+#     - "notebooks/b-*.py"
+
+builds:
+  - id: handouts
+    name: format HTML
+    description: contenu statique et cherchable
+    directory: notebooks
+    script: |
+      pip install jupyter-book
+      jupyter-book build .

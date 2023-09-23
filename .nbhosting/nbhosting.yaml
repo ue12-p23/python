@@ -84,8 +84,8 @@ tracks:
 
 builds:
   - id: handouts
-    name: format HTML
-    description: contenu statique et cherchable
+    name: Python avancé
+    description: contenu HTML statique et cherchable
     directory: notebooks
     script: |
       pip install jupyter-book

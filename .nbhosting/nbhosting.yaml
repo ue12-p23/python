@@ -90,3 +90,4 @@ builds:
     script: |
       pip install jupyter-book
       jupyter-book build .
+    readthedocs_url: https://ue12-p23-python.readthedocs.io/

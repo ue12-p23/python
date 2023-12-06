@@ -18,10 +18,6 @@ jupyter
 jupytext
 jupyterlab-myst
 jupyterlab-courselevels
+jupyterlab-gridwidth
 ipywidgets
 ipympl
-jupyterlab-rise
-
-# for authors only
-# nbprune
-# jupyter-book
